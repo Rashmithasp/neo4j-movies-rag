@@ -1,0 +1,74 @@
+{
+  "backend": "Local mirror",
+  "generator": "template (no LLM)",
+  "questions": 30,
+  "entity_linking_acc": 1.0,
+  "context_recall": 0.9,
+  "answer_accuracy": 0.9,
+  "mean_facts": 8.6,
+  "mean_retrieval_ms": 1.48,
+  "median_retrieval_ms": 1.44,
+  "mean_prompt_chars": 1133,
+  "by_type": {
+    "director": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "cast / role": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "release year": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "tagline": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "writer / producer": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "review": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "person bio": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "filmography": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "multi-hop (co-star)": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "year filter": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "noisy input": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    },
+    "tagline search": {
+      "context_hit": 0.5,
+      "answer_hit": 0.5
+    },
+    "aggregation": {
+      "context_hit": 0.0,
+      "answer_hit": 0.0
+    },
+    "role-only": {
+      "context_hit": 0.0,
+      "answer_hit": 0.0
+    },
+    "out-of-graph": {
+      "context_hit": 1.0,
+      "answer_hit": 1.0
+    }
+  }
+}
